@@ -5,7 +5,7 @@ This repository demonstrates basic Linux system administration tasks using a Vag
 ## Task 1: Set Up a Vagrant Server
 I initialized a Vagrant virtual machine with Ubuntu 22.04 and connected to it via SSH. The screenshot shows the `vagrant init`, `vagrant up`, and `vagrant ssh` commands, confirming successful login to the VM.
 
-![Vagrant Initialization and Login] (images/screenshot1_vagrant_init.png)
+![Vagrant Initialization and Login](images/screenshot1_vagrant_init.png)
 
 ## Task 2: Explore the Linux File System
 I created a folder structure `/home/vagrant/projects/devops` using the `mkdir -p` command. The `ls -R` command shows the created folders. This helps organize project files in a logical structure.
