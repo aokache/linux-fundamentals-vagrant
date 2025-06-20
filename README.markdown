@@ -15,14 +15,16 @@ I created a folder structure `/home/vagrant/projects/devops` using the `mkdir -p
 ## Task 3: Manage File Permissions and Ownership
 I created a file `example.txt` and changed its permissions to `600` (owner read/write only) using `chmod`. I also changed its ownership to `root` using `chown`. The screenshot shows the commands and the final `ls -l` output, where permissions (`-rw-------`) mean only the owner can access it, and ownership shows `root root`.
 
-![Permissions and Ownership](images/screenshot3_permissions.png)
+<img width="791" alt="screenshot3_permission" src="https://github.com/user-attachments/assets/4a9ac9b5-f655-4a67-8eb4-09f36e63b4ef" />
+
 
 ## Task 4: Install and Configure a Package
 I installed the `tree` package using `apt` after updating the package list. The `tree --version` command confirms the installation. The screenshot shows the installation process and version output.
 
-![Package Installation](images/screenshot4_package_install.png)
+<img width="638" alt="screenshot4_package_install" src="https://github.com/user-attachments/assets/9ee7d073-d599-4ec4-96d2-9718f0f95eb8" />
+
 
 ## Task 5: Test Remote Connectivity
 I used `ping -c 4 google.com` to test network connectivity. The screenshot shows the ping results, with response times indicating the VM is connected to the internet. This is useful for verifying network access.
 
-![Ping Result](images/screenshot5_ping)
+<img width="490" alt="screenshot5_ping" src="https://github.com/user-attachments/assets/1b38442a-9654-4735-a206-247d2fac5093" />
